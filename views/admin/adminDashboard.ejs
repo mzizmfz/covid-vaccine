@@ -1,0 +1,43 @@
+<div class="row">
+    <%- include('./sideBare') %>
+  <div class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+        <form action="/admin/AddDoctor" method="post">
+            <fieldset>
+                <legend>Ajouter Un Medecin</legend>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter Email de Medecin">
+                </div>
+                <div class="form-group">
+                    <label for="Cin">Cin</label>
+                    <input type="text" name="Cin" class="form-control" id="Cin" placeholder="Cin de Medecin">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </fieldset>
+        </form>
+  </div>
+</div>
+
+<!--<div class="col-lg-12 mb-2">-->
+<!--    <div class="row mt-5">-->
+<!--        <form action="/admin/addCenter" method="post">-->
+<!--            <fieldset>-->
+<!--                <legend>Add Center</legend>-->
+<!--                <div class="form-group">-->
+<!--                    <label for="city">City</label>-->
+<!--                    <input type="text" name="city" class="form-control" id="city" aria-describedby="cityHelp" placeholder="Enter City">-->
+<!--                </div>-->
+<!--                <div class="form-group">-->
+<!--                    <label for="centername">Nom de centre</label>-->
+<!--                    <input type="text" name="centername" class="form-control" id="centername" placeholder="Nom de centre">-->
+<!--                </div>-->
+<!--                <div class="form-group">-->
+<!--                    <label for="directeur">Directeur</label>-->
+<!--                    <input type="text" name="directeur" class="form-control" id="directeur" placeholder="Directeur">-->
+<!--                </div>-->
+<!--                <button type="submit" class="btn btn-primary">Submit</button>-->
+<!--            </fieldset>-->
+<!--        </form>-->
+<!--    </div>-->
+<!--</div>-->
+

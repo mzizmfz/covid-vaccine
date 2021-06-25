@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap");
+@media only screen and (min-device-width: 375px) and (max-device-width: 576px) {
+  #myNavbar {
+    background-color: #fff !important;
+  }
+}
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+body {
+  background-image: url("../img/form1.svg");
+  background-repeat: no-repeat;
+  background-size: 700px;
+  background-position: 100% 5%;
+}
+#loginForm {
+  background-color: #d8e3e7;
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+}
+
+#myNavbar {
+  background-color: #09538b !important;
+  height: 100px;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  max-height: 100px;
+}
+#underNav {
+  display: block;
+  overflow: auto;
+  margin-top: 100px;
+  overflow: hidden;
+  /*margin-top: 100px;*/
+  background: rgb(6, 56, 87);
+  background: linear-gradient(
+    90deg,
+    rgba(6, 56, 87, 1) 6%,
+    rgba(0, 0, 0, 0) 100%,
+    rgba(255, 255, 255, 0.3757878151260504) 100%
+  );
+  height: 250px;
+  position: relative;
+  /*min-height: 26.625rem;*/
+  /*display: flex;*/
+  align-items: center;
+}
+
+#navbarBrand {
+  color: white !important;
+  font-family: "Noto Sans TC", sans-serif;
+}
+#imgBrand {
+  width: 4rem;
+  height: 4rem;
+  border-right-style: solid;
+  padding-right: 5px;
+  margin-right: 5px;
+}
+
+#map {
+  height: 4.7rem;
+  width: 5rem;
+  vertical-align: middle;
+  border-style: none;
+  background-color: #09538b;
+  border-radius: 50%;
+}
+#underNav h1 {
+  color: white;
+}
+.carouselImg {
+  /*width: 100vh;*/
+  width: 100%;
+}
+
+#myCrousel {
+  display: block;
+  position: absolute;
+  /*width: 100%;*/
+  /*height: 100%;*/
+  top: 0;
+  z-index: -1;
+}
+
+#carouselImgs {
+  height: 250px;
+  min-height: 26.625rem;
+}
+
+#vcPortal {
+  color: #09538b;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.0625rem;
+  letter-spacing: 0.0375rem;
+  text-decoration: none;
+  padding: 0.25rem 0.75rem;
+  display: block;
+}
+.marginT-30 {
+  margin-top: 30px !important;
+}
+.marginB-30 {
+  margin-bottom: 30px !important;
+}
+.marginT-120 {
+  margin-top: 120px !important;
+}
+
+.topleftborderraduis {
+  border: none !important;
+  border-top-style: solid !important;
+  border-top-color: #09538b !important;
+  border-top-left-radius: 5px !important;
+  border-top-right-radius: 5px !important;
+}
+
+#help {
+  bottom: 2.5rem;
+  right: 2rem;
+  z-index: 1;
+}
+#askbtn {
+  background-color: #ef780e;
+  color: white;
+  font-size: large;
+  font-family: "Noto Sans TC", sans-serif;
+  border-color: white;
+  border-style: solid;
+  -webkit-box-shadow: 5px 5px 28px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 5px 5px 28px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 28px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 10px !important;
+}
+
+#askbtn:hover {
+  border: none;
+  -webkit-box-shadow: 5px 5px 28px 0px rgba(0, 0, 0, 0);
+  -moz-box-shadow: 5px 5px 28px 0px rgba(0, 0, 0, 0);
+  box-shadow: 5px 5px 28px 0px rgba(0, 0, 0, 0);
+}
+.center {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.resource {
+  border-color: #e2e8f3 !important;
+  border-radius: 0.5rem !important;
+  border-style: solid !important;
+  border-left-color: #09538b !important;
+  border-left-style: solid !important;
+  border-left-width: 0.3rem !important;
+  margin-top: 10px;
+}
+.top3rem {
+  top: 3rem;
+}
+
+.textAlignCenter {
+  text-align: center;
+}
+
+.sideEffect {
+  border: none !important;
+}
+
+.sideEffectImg {
+  width: 10rem !important;
+}
+
+#logOutBtn {
+  height: auto !important;
+}
+
+#error {
+  width: 400px;
+  height: 400px;
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+.para {
+  margin-top: 180px;
+}
+.txt {
+  color: #09538b;
+  font-size: 2rem;
+  text-align: center;
+}
+.container-404 {
+  margin: 0 !important;
+}
+
+.value {
+  color: #09538b;
+  font-size: 1.5rem;
+}
+
+.coll {
+  margin-left: -8%;
+}
+
+.Imp {
+  width: 70%;
+  height: 80%;
+  border-radius: 15px 50px 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title_h3_home {
+  color: wheat !important;
+}
+
+.arabic_text {
+  text-align: right !important;
+}
+
+.paddingR-20 {
+  padding-right: 20px;
+}
+
+.ar_justify_evenly {
+  justify-content: space-evenly;
+}
+
+.ar_justify_flexend {
+  justify-content: flex-end !important;
+}
+
+.ar_form_justify {
+  justify-content: flex-end;
+}

@@ -1,0 +1,70 @@
+<% 
+  let ar_flex=''; 
+  if(pageL.lang==='ar'){
+  ar_flex='ar_justify_flexend'; 
+  } 
+%>
+
+
+<script>
+  window.onscroll = function () {
+    scrollFunction();
+  };
+
+  function scrollFunction() {
+    if (
+      document.body.scrollTop > 100 ||
+      document.documentElement.scrollTop > 100
+    ) {
+      // document.getElementById("myNavbar").style.padding = "30px 10px";
+      document.getElementById("brandText").style.fontSize = "25px";
+      $("#myNavbar").animate(
+        {
+          height: "68px",
+        },
+        10
+      );
+      $("#imgBrand").animate(
+        {
+          width: "3.5rem",
+          height: "3.5rem",
+        },
+        10
+      );
+    } else {
+      // document.getElementById("myNavbar").style.padding = "60px 20px";
+      document.getElementById("brandText").style.fontSize = "35px";
+      $("#myNavbar").animate(
+        {
+          height: "100px",
+        },
+        10
+      );
+      $("#imgBrand").animate(
+        {
+          width: "4rem",
+          height: "4rem",
+        },
+        10
+      );
+    }
+  }
+</script>
+<nav id="myNavbar" class="navbar fixed-top">
+  <div class="container <%=ar_flex%>">
+    <a id="navbarBrand" class="navbar-brand" href="/">
+      <img
+        id="imgBrand"
+        style="display: inline-block"
+        src="/img/icon.png"
+        alt=""
+        width="30"
+        height="24"
+      />
+      <div id="brandText" style="display: inline-block">
+        <h6>COVID-19</h6>
+        <h6>VACCINE</h6>
+      </div>
+    </a>
+  </div>
+</nav>
